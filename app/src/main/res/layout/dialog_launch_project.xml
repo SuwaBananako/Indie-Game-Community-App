@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:id="@+id/ivGameIcon"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_game_controller"
+                android:scaleType="centerCrop"
+                android:background="@drawable/card_bg"
+                android:layout_marginRight="12dp"/>
+
+            <Button
+                android:id="@+id/btnSelectIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="选择图标"
+                android:textSize="13sp"
+                android:textColor="@color/acfun_text_white"
+                android:background="@drawable/btn_post_bg"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:id="@+id/ivBannerPreview"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:src="@drawable/card_bg"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择横幅背景图（可选）"
+                android:textSize="12sp"
+                android:textColor="@color/acfun_text_light"
+                android:layout_marginRight="8dp"/>
+
+            <Button
+                android:id="@+id/btnSelectBanner"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="选择"
+                android:textSize="13sp"
+                android:textColor="@color/acfun_text_white"
+                android:background="@drawable/btn_post_bg"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etProjectName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="项目名称"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/acfun_text"
+            android:textColorHint="@color/acfun_text_light"/>
+
+        <EditText
+            android:id="@+id/etProjectDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="项目描述（选填）"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/acfun_text"
+            android:textColorHint="@color/acfun_text_light"
+            android:minHeight="80dp"
+            android:gravity="top"/>
+
+        <EditText
+            android:id="@+id/etTargetAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="目标金额（元）"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:inputType="numberDecimal"
+            android:textColor="@color/acfun_text"
+            android:textColorHint="@color/acfun_text_light"/>
+    </LinearLayout>
+</ScrollView>

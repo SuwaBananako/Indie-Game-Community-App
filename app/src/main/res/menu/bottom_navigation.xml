@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_forum"
+        android:title="论坛"
+        android:icon="@drawable/x1"/>
+    <item
+        android:id="@+id/nav_tieba"
+        android:title="贴吧"
+        android:icon="@drawable/x2"/>
+    <item
+        android:id="@+id/nav_promo"
+        android:title="宣发"
+        android:icon="@drawable/x3"/>
+    <item
+        android:id="@+id/nav_crowdfunding"
+        android:title="众筹"
+        android:icon="@drawable/x4"/>
+    <item
+        android:id="@+id/nav_vote"
+        android:title="投票"
+        android:icon="@drawable/x5"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:title="我的"
+        android:icon="@drawable/x6"/>
+</menu>

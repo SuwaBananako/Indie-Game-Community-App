@@ -1,0 +1,169 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.indiegamecommunity"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission
+11-->C:\AndroidTest\app\src\main\AndroidManifest.xml:4:5-5:38
+12        android:name="android.permission.WRITE_SETTINGS"
+12-->C:\AndroidTest\app\src\main\AndroidManifest.xml:4:22-70
+13        android:maxSdkVersion="22" />
+13-->C:\AndroidTest\app\src\main\AndroidManifest.xml:5:9-35
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] C:\Users\17676\.gradle\caches\transforms-3\69031d9de34e6ae4e80492f7a424b6d1\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.indiegamecommunity.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] C:\Users\17676\.gradle\caches\transforms-3\69031d9de34e6ae4e80492f7a424b6d1\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] C:\Users\17676\.gradle\caches\transforms-3\69031d9de34e6ae4e80492f7a424b6d1\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.indiegamecommunity.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] C:\Users\17676\.gradle\caches\transforms-3\69031d9de34e6ae4e80492f7a424b6d1\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] C:\Users\17676\.gradle\caches\transforms-3\69031d9de34e6ae4e80492f7a424b6d1\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\AndroidTest\app\src\main\AndroidManifest.xml:7:5-59:19
+22        android:name="com.example.indiegamecommunity.IndieGameCommunityApp"
+22-->C:\AndroidTest\app\src\main\AndroidManifest.xml:8:9-46
+23        android:allowBackup="true"
+23-->C:\AndroidTest\app\src\main\AndroidManifest.xml:9:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\17676\.gradle\caches\transforms-3\69031d9de34e6ae4e80492f7a424b6d1\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/biao"
+26-->C:\AndroidTest\app\src\main\AndroidManifest.xml:10:9-36
+27        android:label="@string/app_name"
+27-->C:\AndroidTest\app\src\main\AndroidManifest.xml:11:9-41
+28        android:roundIcon="@mipmap/biao"
+28-->C:\AndroidTest\app\src\main\AndroidManifest.xml:12:9-41
+29        android:supportsRtl="true"
+29-->C:\AndroidTest\app\src\main\AndroidManifest.xml:13:9-35
+30        android:theme="@style/Theme.IndieGameCommunity" >
+30-->C:\AndroidTest\app\src\main\AndroidManifest.xml:14:9-56
+31        <activity
+31-->C:\AndroidTest\app\src\main\AndroidManifest.xml:15:9-23:20
+32            android:name="com.example.indiegamecommunity.activity.SplashActivity"
+32-->C:\AndroidTest\app\src\main\AndroidManifest.xml:16:13-52
+33            android:exported="true"
+33-->C:\AndroidTest\app\src\main\AndroidManifest.xml:17:13-36
+34            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+34-->C:\AndroidTest\app\src\main\AndroidManifest.xml:18:13-69
+35            <intent-filter>
+35-->C:\AndroidTest\app\src\main\AndroidManifest.xml:19:13-22:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\AndroidTest\app\src\main\AndroidManifest.xml:20:17-69
+36-->C:\AndroidTest\app\src\main\AndroidManifest.xml:20:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\AndroidTest\app\src\main\AndroidManifest.xml:21:17-77
+38-->C:\AndroidTest\app\src\main\AndroidManifest.xml:21:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\AndroidTest\app\src\main\AndroidManifest.xml:24:9-26:39
+42            android:name="com.example.indiegamecommunity.activity.LoginActivity"
+42-->C:\AndroidTest\app\src\main\AndroidManifest.xml:25:13-51
+43            android:exported="true" />
+43-->C:\AndroidTest\app\src\main\AndroidManifest.xml:26:13-36
+44        <activity
+44-->C:\AndroidTest\app\src\main\AndroidManifest.xml:27:9-29:39
+45            android:name="com.example.indiegamecommunity.activity.RegisterActivity"
+45-->C:\AndroidTest\app\src\main\AndroidManifest.xml:28:13-54
+46            android:exported="true" />
+46-->C:\AndroidTest\app\src\main\AndroidManifest.xml:29:13-36
+47        <activity
+47-->C:\AndroidTest\app\src\main\AndroidManifest.xml:30:9-32:39
+48            android:name="com.example.indiegamecommunity.activity.MainActivity"
+48-->C:\AndroidTest\app\src\main\AndroidManifest.xml:31:13-50
+49            android:exported="true" />
+49-->C:\AndroidTest\app\src\main\AndroidManifest.xml:32:13-36
+50        <activity
+50-->C:\AndroidTest\app\src\main\AndroidManifest.xml:33:9-35:39
+51            android:name="com.example.indiegamecommunity.activity.PostDetailActivity"
+51-->C:\AndroidTest\app\src\main\AndroidManifest.xml:34:13-56
+52            android:exported="true" />
+52-->C:\AndroidTest\app\src\main\AndroidManifest.xml:35:13-36
+53        <activity
+53-->C:\AndroidTest\app\src\main\AndroidManifest.xml:36:9-37:71
+54            android:name="com.example.indiegamecommunity.activity.PostEditActivity"
+54-->C:\AndroidTest\app\src\main\AndroidManifest.xml:36:19-60
+55            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+55-->C:\AndroidTest\app\src\main\AndroidManifest.xml:37:13-69
+56        <activity
+56-->C:\AndroidTest\app\src\main\AndroidManifest.xml:38:9-39:71
+57            android:name="com.example.indiegamecommunity.activity.GameDetailActivity"
+57-->C:\AndroidTest\app\src\main\AndroidManifest.xml:38:19-62
+58            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+58-->C:\AndroidTest\app\src\main\AndroidManifest.xml:39:13-69
+59        <activity
+59-->C:\AndroidTest\app\src\main\AndroidManifest.xml:40:9-41:71
+60            android:name="com.example.indiegamecommunity.activity.ProjectDetailActivity"
+60-->C:\AndroidTest\app\src\main\AndroidManifest.xml:40:19-65
+61            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+61-->C:\AndroidTest\app\src\main\AndroidManifest.xml:41:13-69
+62        <activity
+62-->C:\AndroidTest\app\src\main\AndroidManifest.xml:42:9-43:71
+63            android:name="com.example.indiegamecommunity.activity.VoteDetailActivity"
+63-->C:\AndroidTest\app\src\main\AndroidManifest.xml:42:19-62
+64            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+64-->C:\AndroidTest\app\src\main\AndroidManifest.xml:43:13-69
+65        <activity
+65-->C:\AndroidTest\app\src\main\AndroidManifest.xml:44:9-46:39
+66            android:name="com.example.indiegamecommunity.activity.CategoryDetailActivity"
+66-->C:\AndroidTest\app\src\main\AndroidManifest.xml:45:13-60
+67            android:exported="true" />
+67-->C:\AndroidTest\app\src\main\AndroidManifest.xml:46:13-36
+68        <activity
+68-->C:\AndroidTest\app\src\main\AndroidManifest.xml:47:9-50:39
+69            android:name="com.example.indiegamecommunity.activity.AdminActivity"
+69-->C:\AndroidTest\app\src\main\AndroidManifest.xml:48:13-51
+70            android:exported="true"
+70-->C:\AndroidTest\app\src\main\AndroidManifest.xml:50:13-36
+71            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+71-->C:\AndroidTest\app\src\main\AndroidManifest.xml:49:13-69
+72        <activity
+72-->C:\AndroidTest\app\src\main\AndroidManifest.xml:51:9-54:39
+73            android:name="com.example.indiegamecommunity.activity.SettingsActivity"
+73-->C:\AndroidTest\app\src\main\AndroidManifest.xml:52:13-54
+74            android:exported="true"
+74-->C:\AndroidTest\app\src\main\AndroidManifest.xml:54:13-36
+75            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+75-->C:\AndroidTest\app\src\main\AndroidManifest.xml:53:13-69
+76        <activity
+76-->C:\AndroidTest\app\src\main\AndroidManifest.xml:55:9-58:39
+77            android:name="com.example.indiegamecommunity.activity.PaymentActivity"
+77-->C:\AndroidTest\app\src\main\AndroidManifest.xml:56:13-53
+78            android:exported="true"
+78-->C:\AndroidTest\app\src\main\AndroidManifest.xml:58:13-36
+79            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+79-->C:\AndroidTest\app\src\main\AndroidManifest.xml:57:13-69
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\17676\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\17676\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+83            android:authorities="com.example.indiegamecommunity.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\17676\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\17676\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\17676\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\17676\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\17676\.gradle\caches\transforms-3\d121cbb831bfcedee4bd4dacef3ca9b6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\17676\.gradle\caches\transforms-3\09eebfef02b068e8648c27b44a779134\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\17676\.gradle\caches\transforms-3\09eebfef02b068e8648c27b44a779134\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\17676\.gradle\caches\transforms-3\09eebfef02b068e8648c27b44a779134\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+91        </provider>
+92    </application>
+93
+94</manifest>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/acfun_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@color/acfun_red"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="←"
+            android:textSize="20sp"
+            android:textColor="@color/acfun_text_white"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="设置"
+            android:textSize="18sp"
+            android:textColor="@color/acfun_text_white"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/acfun_card"
+            android:padding="16dp">
+
+            <!-- ===== 视觉特效 ===== -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="视觉特效"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/acfun_red"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- 樱花飘落开关 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp"
+                android:padding="8dp"
+                android:background="@drawable/edittext_background">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="樱花飘落特效"
+                        android:textSize="15sp"
+                        android:textColor="@color/acfun_text"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="全屏樱花花瓣飘落动画"
+                        android:textSize="12sp"
+                        android:textColor="@color/acfun_text_light"/>
+                </LinearLayout>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/swSakura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/acfun_divider"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- ===== 夜间模式 ===== -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="显示设置"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/acfun_red"
+                android:layout_marginBottom="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp"
+                android:padding="8dp"
+                android:background="@drawable/edittext_background">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="夜间模式"
+                        android:textSize="15sp"
+                        android:textColor="@color/acfun_text"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="全局深色主题配色"
+                        android:textSize="12sp"
+                        android:textColor="@color/acfun_text_light"/>
+                </LinearLayout>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/swNightMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/acfun_divider"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- ===== 基础设置 ===== -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="基础设置"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/acfun_red"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="字体大小"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/acfun_text"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/tvFontPreview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="这是预览文字 ABC 123"
+                android:textSize="16sp"
+                android:textColor="@color/acfun_text"
+                android:padding="12dp"
+                android:background="@drawable/edittext_background"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小"
+                    android:textSize="14sp"
+                    android:textColor="@color/acfun_text_light"/>
+
+                <SeekBar
+                    android:id="@+id/sbFontSize"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:max="10"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="大"
+                    android:textSize="14sp"
+                    android:textColor="@color/acfun_text_light"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/acfun_divider"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="屏幕亮度"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/acfun_text"
+                android:layout_marginBottom="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_like_small"
+                    android:alpha="0.4"/>
+
+                <SeekBar
+                    android:id="@+id/sbBrightness"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:max="255"
+                    android:progress="128"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_like_small"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/acfun_divider"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btnResetDefault"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="恢复默认"
+                android:textColor="@color/acfun_text_white"
+                android:background="@drawable/btn_post_bg"
+                android:textSize="15sp"
+                android:padding="13dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

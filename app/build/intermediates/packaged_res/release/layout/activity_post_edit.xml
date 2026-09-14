@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/acfun_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@color/acfun_red"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="←"
+            android:textSize="20sp"
+            android:textColor="@color/acfun_text_white"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="发帖"
+            android:textSize="18sp"
+            android:textColor="@color/acfun_text_white"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="帖子封面图"
+                    android:textColor="@color/acfun_text_light"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="6dp"/>
+
+                <ImageView
+                    android:id="@+id/ivCoverPreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/edittext_background"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/tvCoverHint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="选择一张图片作为帖子封面（可选）"
+                    android:textSize="13sp"
+                    android:textColor="@color/acfun_text_light"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:background="@drawable/edittext_background"/>
+
+                <Button
+                    android:id="@+id/btnSelectCover"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="选择封面图片"
+                    android:textColor="@color/acfun_text_white"
+                    android:background="@drawable/btn_post_bg"
+                    android:textSize="14sp"
+                    android:padding="10dp"
+                    android:layout_marginTop="6dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="选择分类"
+                    android:textColor="@color/acfun_text_light"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="6dp"/>
+
+                <Spinner
+                    android:id="@+id/spCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/edittext_background"
+                    android:padding="12dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="标题"
+                    android:textColor="@color/acfun_text_light"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="6dp"/>
+
+                <EditText
+                    android:id="@+id/etTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入标题"
+                    android:textColor="@color/acfun_text"
+                    android:textColorHint="@color/acfun_text_light"
+                    android:background="@drawable/edittext_background"
+                    android:padding="12dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="内容"
+                    android:textColor="@color/acfun_text_light"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="6dp"/>
+
+                <EditText
+                    android:id="@+id/etContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:hint="请输入内容"
+                    android:textColor="@color/acfun_text"
+                    android:textColorHint="@color/acfun_text_light"
+                    android:background="@drawable/edittext_background"
+                    android:padding="12dp"
+                    android:inputType="textMultiLine"
+                    android:gravity="top"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="正文图片（可选多张）"
+                    android:textColor="@color/acfun_text_light"
+                    android:textSize="13sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="6dp"/>
+
+                <LinearLayout
+                    android:id="@+id/layoutContentImages"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="6dp">
+
+                    <ScrollView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:id="@+id/layoutImagePreviews"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"/>
+                    </ScrollView>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnAddContentImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="添加正文图片"
+                    android:textColor="@color/acfun_text_white"
+                    android:background="@drawable/btn_post_bg"
+                    android:textSize="14sp"
+                    android:padding="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="取消"
+                    android:textColor="@color/btn_white_text"
+                    android:background="@drawable/btn_cancel_bg"
+                    android:layout_marginEnd="10dp"
+                    android:padding="14dp"
+                    android:textSize="15sp"/>
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="发布"
+                    android:textColor="@color/acfun_text_white"
+                    android:background="@drawable/btn_post_bg"
+                    android:padding="14dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

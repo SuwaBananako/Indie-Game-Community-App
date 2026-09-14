@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/acfun_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="28dp"
+            android:gravity="center"
+            android:background="@drawable/profile_header_bg">
+
+            <ImageView
+                android:id="@+id/ivAvatar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@android:drawable/ic_menu_my_calendar"
+                android:layout_marginBottom="14dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/avatar_border"/>
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/acfun_text_white"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/tvUserDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="独立游戏爱好者"
+                android:textSize="12sp"
+                android:textColor="@color/acfun_text_white"
+                android:alpha="0.8"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="@color/acfun_card"
+            android:elevation="1dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/tvPostCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/acfun_red"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发布"
+                    android:textSize="12sp"
+                    android:textColor="@color/acfun_text_light"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/acfun_divider"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/tvCollectCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/acfun_red"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收藏"
+                    android:textSize="12sp"
+                    android:textColor="@color/acfun_text_light"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/acfun_divider"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/tvGameCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/acfun_red"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="游戏"
+                    android:textSize="12sp"
+                    android:textColor="@color/acfun_text_light"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="个人管理"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/acfun_text_light"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/acfun_card"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <LinearLayout
+                android:id="@+id/layoutMyGames"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:background="@drawable/menu_item_bg"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/s1"
+                    android:scaleType="centerInside"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="我的游戏"
+                    android:textSize="15sp"
+                    android:textColor="@color/acfun_text"
+                    android:layout_marginLeft="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=">"
+                    android:textSize="16sp"
+                    android:textColor="@color/acfun_text_light"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/acfun_divider"/>
+
+            <LinearLayout
+                android:id="@+id/layoutMyCollections"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:background="@drawable/menu_item_bg"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/s2"
+                    android:scaleType="centerInside"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="我的收藏"
+                    android:textSize="15sp"
+                    android:textColor="@color/acfun_text"
+                    android:layout_marginLeft="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=">"
+                    android:textSize="16sp"
+                    android:textColor="@color/acfun_text_light"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/acfun_divider"/>
+
+            <LinearLayout
+                android:id="@+id/layoutMyPromos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:background="@drawable/menu_item_bg"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/s2"
+                    android:scaleType="centerInside"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="我的宣发"
+                    android:textSize="15sp"
+                    android:textColor="@color/acfun_text"
+                    android:layout_marginLeft="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=">"
+                    android:textSize="16sp"
+                    android:textColor="@color/acfun_text_light"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/acfun_divider"/>
+
+            <LinearLayout
+                android:id="@+id/layoutMyFunding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:background="@drawable/menu_item_bg"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/s3"
+                    android:scaleType="centerInside"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="我的众筹"
+                    android:textSize="15sp"
+                    android:textColor="@color/acfun_text"
+                    android:layout_marginLeft="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=">"
+                    android:textSize="16sp"
+                    android:textColor="@color/acfun_text_light"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/acfun_divider"/>
+
+            <LinearLayout
+                android:id="@+id/layoutAddGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:background="@drawable/menu_item_bg"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/s3"
+                    android:scaleType="centerInside"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="添加游戏"
+                    android:textSize="15sp"
+                    android:textColor="@color/acfun_text"
+                    android:layout_marginLeft="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=">"
+                    android:textSize="16sp"
+                    android:textColor="@color/acfun_text_light"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/acfun_divider"/>
+
+            <LinearLayout
+                android:id="@+id/layoutEditProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:background="@drawable/menu_item_bg"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/s4"
+                    android:scaleType="centerInside"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="编辑资料"
+                    android:textSize="15sp"
+                    android:textColor="@color/acfun_text"
+                    android:layout_marginLeft="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=">"
+                    android:textSize="16sp"
+                    android:textColor="@color/acfun_text_light"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/acfun_divider"/>
+
+            <LinearLayout
+                android:id="@+id/layoutSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:background="@drawable/menu_item_bg"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/s5"
+                    android:scaleType="centerInside"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="设置"
+                    android:textSize="15sp"
+                    android:textColor="@color/acfun_text"
+                    android:layout_marginLeft="14dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=">"
+                    android:textSize="16sp"
+                    android:textColor="@color/acfun_text_light"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="@color/acfun_bg"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/acfun_card"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/btnNotifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="通知"
+                android:textSize="15sp"
+                android:textColor="@color/acfun_text_white"
+                android:background="@drawable/btn_post_bg"
+                android:padding="13dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnAdminPanel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="管理后台"
+                android:textSize="15sp"
+                android:textColor="@color/acfun_text_white"
+                android:background="@drawable/btn_post_bg"
+                android:padding="13dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="退出登录"
+                android:textSize="15sp"
+                android:textColor="@color/acfun_text_white"
+                android:padding="13dp"
+                android:background="@drawable/btn_logout_bg"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我的发布"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/acfun_text_light"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/acfun_card">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvMyPosts"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

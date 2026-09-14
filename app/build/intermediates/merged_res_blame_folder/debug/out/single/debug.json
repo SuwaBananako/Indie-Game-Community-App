@@ -1,0 +1,610 @@
+[
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_btn_green_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\btn_green_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_splash_gradient_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\splash_gradient_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_banner_overlay.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\banner_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_item_crowdfunding.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\item_crowdfunding.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_alipay.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_alipay.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_crowdfunding.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_crowdfunding.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_x1.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\x1.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_item_comment.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\item_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_btn_search_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\btn_search_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_admin_games.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_admin_games.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_zhifubao.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\zhifubao.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_btn_cancel_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\btn_cancel_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_tu8.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\tu8.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_dot_unselected.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\dot_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_item_game_promo.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\item_game_promo.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_btn_warning_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\btn_warning_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_post_edit.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_post_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_post_detail.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_post_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-anydpi-v26_biao.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-anydpi-v26\\biao.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_vote.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_vote.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_collect_small.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_collect_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_dialog_edit_profile.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\dialog_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_icon_music.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\icon_music.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_item_banner.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\item_banner.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_dialog_add_game.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\dialog_add_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_tu2.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\tu2.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_item_message_ai.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\item_message_ai.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_item_vote.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\item_vote.xml"
+    },
+    {
+        "merged": "com.example.indiegamecommunity.app-merged_res-4:/layout_activity_admin.xml.flat",
+        "source": "com.example.indiegamecommunity.app-main-6:/layout/activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_item_message_user.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\item_message_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_category_icon_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\category_icon_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-hdpi_biao.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-hdpi\\biao.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ba3.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ba3.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_ai.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_ai.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_project_detail.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_project_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_icon_art.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\icon_art.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_x3.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\x3.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_section_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\section_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-xxhdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_avatar_border.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\avatar_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_tu1.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\tu1.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_dialog_payment_select.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\dialog_payment_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_admin_users.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_admin_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_stat_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\stat_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_s5.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\s5.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_biao.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\biao.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_download_small.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_download_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_x6.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\x6.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_promo.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_promo.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-xxxhdpi_biao.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-xxxhdpi\\biao.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_banner1.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\banner1.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_vote_detail.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_vote_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_change_password.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_search_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\search_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_tu7.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\tu7.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_card_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\card_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_btn_collect_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\btn_collect_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-anydpi-v26_biao_round.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-anydpi-v26\\biao_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\menu_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\menu\\bottom_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_btn_post_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\btn_post_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_category_detail.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_category_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_game_promo.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_game_promo.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_dialog_publish_game.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\dialog_publish_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_item_category.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ba1.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ba1.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_icon_event.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\icon_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_tieba.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_tieba.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_wechat_pay.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_wechat_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_x5.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\x5.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-xhdpi_biao.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-xhdpi\\biao.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_admin.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_dialog_launch_project.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\dialog_launch_project.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_icon_qna.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\icon_qna.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_btn_edit_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\btn_edit_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_item_post.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\item_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_tu4.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\tu4.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_tieba.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_tieba.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-xhdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\color_btn_white_text.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\color\\btn_white_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_category_tag_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\category_tag_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_banner_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\banner_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_s2.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\s2.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-hdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_banner4.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\banner4.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_tab_bg_selector.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\tab_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_icon_dev.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\icon_dev.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_admin_posts.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_admin_posts.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_forum.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_forum.xml"
+    },
+    {
+        "merged": "com.example.indiegamecommunity.app-merged_res-4:/layout_fragment_profile.xml.flat",
+        "source": "com.example.indiegamecommunity.app-main-6:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_s3.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\s3.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ba2.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ba2.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_tu5.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\tu5.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_follow_list.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_follow_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_default_avatar.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_default_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_x4.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\x4.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_crowdfunding_banner.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_crowdfunding_banner.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_thumbnail_placeholder.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\thumbnail_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-hdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_banner3.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\banner3.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_admin_stats.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_admin_stats.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_item_admin_review.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\item_admin_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_menu_item_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\menu_item_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_btn_logout_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\btn_logout_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_profile_header_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\profile_header_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-xxhdpi_biao.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-xxhdpi\\biao.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\color_tab_text_selector.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\color\\tab_text_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_dialog_support.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\dialog_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_qr_placeholder_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\qr_placeholder_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_s4.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\s4.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_icon_news.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\icon_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_tu6.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\tu6.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_section_header_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\section_header_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_banner2.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\banner2.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_share_small.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_share_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_report.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_game_controller.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_game_controller.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_crowdfunding.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_crowdfunding.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_admin_comments.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_admin_comments.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_game_detail.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_game_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_edittext_background.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\edittext_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_user_agreement.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_user_agreement.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_vote.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_vote.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_btn_profile_item.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\btn_profile_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_icon_chat.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\icon_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_progress_bar.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_tu3.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\tu3.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_dot_selected.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\dot_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_comment_small.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_comment_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_weixin.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\weixin.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_s1.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\s1.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_x2.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\x2.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ba4.png.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ba4.png"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_forum.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_forum.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_btn_like_bg.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\btn_like_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_ai_assistant.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_ai_assistant.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_activity_payment.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_ic_like_small.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\ic_like_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\layout_fragment_admin_review.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\layout\\fragment_admin_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-merged_res-4:\\drawable_icon_game.xml.flat",
+        "source": "C:\\Users\\17676\\.gradle\\daemon\\8.5\\com.example.indiegamecommunity.app-main-6:\\drawable\\icon_game.xml"
+    }
+]

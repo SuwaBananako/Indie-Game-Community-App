@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="acfun_red">#FD4C5C</color>
+    <color name="acfun_red_dark">#E03A4A</color>
+    <color name="acfun_red_light">#FF7B88</color>
+    <color name="acfun_red_bg">#FFF0F2</color>
+    <color name="acfun_pink">#FF6B9D</color>
+    <color name="acfun_pink_light">#FFB6C1</color>
+    <color name="acfun_orange">#FF8C42</color>
+    <color name="acfun_yellow">#FFC107</color>
+    <color name="acfun_bg">#FFF5F6</color>
+    <color name="acfun_card">#FFFFFF</color>
+    <color name="acfun_text">#333333</color>
+    <color name="acfun_text_light">#999999</color>
+    <color name="acfun_text_white">#FFFFFF</color>
+    <color name="acfun_divider">#F0E0E2</color>
+    <color name="acfun_btn_bg">#FD4C5C</color>
+    <color name="acfun_green">#4CAF50</color>
+    <color name="acfun_blue">#2196F3</color>
+</resources>

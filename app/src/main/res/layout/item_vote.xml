@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:background="@color/acfun_card">
+
+    <ImageView
+        android:id="@+id/ivGameIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_game_controller"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="12dp"/>
+
+    <TextView
+        android:id="@+id/tvRank"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/acfun_text"/>
+
+    <TextView
+        android:id="@+id/tvGameName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textColor="@color/acfun_text"/>
+
+    <TextView
+        android:id="@+id/tvVoteCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/acfun_text"
+        android:layout_marginEnd="16dp"/>
+
+    <Button
+        android:id="@+id/btnVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="投票"
+        android:textColor="@color/acfun_text_white"
+        android:background="@drawable/btn_post_bg"
+        android:padding="8dp"/>
+
+</LinearLayout>

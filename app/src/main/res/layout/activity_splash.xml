@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/splash_gradient_bg">
+
+    <TextView
+        android:id="@+id/tvSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="独立与梦想"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:letterSpacing="0.15"
+        android:alpha="0"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:layout_marginBottom="24dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressLoading"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="160dp"
+        android:layout_height="3dp"
+        android:max="100"
+        android:progress="0"
+        android:progressTint="#FFFFFF"
+        android:progressBackgroundTint="#44FFFFFF"
+        android:alpha="0"/>
+
+</LinearLayout>

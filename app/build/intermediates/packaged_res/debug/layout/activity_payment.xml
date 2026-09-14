@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <!-- 顶部栏 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="#FD4C5C"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="←"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tvPayTitle"
+            android:text="微信支付"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvPayAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¥0.00"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center_horizontal">
+
+            <!-- 商户/项目信息 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="付款详情"
+                    android:textSize="14sp"
+                    android:textColor="#999999"
+                    android:layout_marginBottom="8dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="6dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="项目："
+                        android:textSize="14sp"
+                        android:textColor="#666666"/>
+                    <TextView
+                        android:id="@+id/tvProjectName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="14sp"
+                        android:textColor="#333333"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="金额："
+                        android:textSize="14sp"
+                        android:textColor="#666666"/>
+                    <TextView
+                        android:id="@+id/tvAmount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="14sp"
+                        android:textColor="#FD4C5C"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 支付金额大字 -->
+            <TextView
+                android:id="@+id/tvBigAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥0.00"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- 二维码区域 -->
+            <View
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/qr_placeholder_bg"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请使用微信/支付宝扫码支付"
+                android:textSize="12sp"
+                android:textColor="#999999"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- 支付方式切换按钮 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnSwitchWechat"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    android:text="切换到微信支付"
+                    android:textSize="14sp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/btn_post_bg"
+                    android:visibility="gone"
+                    android:layout_marginRight="8dp"/>
+
+                <Button
+                    android:id="@+id/btnSwitchAlipay"
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    android:text="切换到支付宝"
+                    android:textSize="14sp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/btn_post_bg"
+                    android:visibility="gone"
+                    android:layout_marginRight="8dp"/>
+            </LinearLayout>
+
+            <!-- 确认支付按钮 -->
+            <Button
+                android:id="@+id/btnConfirmPay"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:text="确认支付 ¥0.00"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/btn_post_bg"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnCancelPay"
+                android:layout_width="200dp"
+                android:layout_height="42dp"
+                android:text="取消支付"
+                android:textSize="14sp"
+                android:textColor="#999999"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

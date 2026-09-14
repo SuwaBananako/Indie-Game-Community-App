@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.IndieGameCommunity" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/acfun_red</item>
+        <item name="colorPrimaryVariant">@color/acfun_red_dark</item>
+        <item name="colorOnPrimary">@color/acfun_text_white</item>
+        <item name="colorSecondary">@color/acfun_pink</item>
+        <item name="colorSecondaryVariant">@color/acfun_pink_light</item>
+        <item name="colorOnSecondary">@color/acfun_text_white</item>
+        <item name="android:statusBarColor">@color/acfun_red_dark</item>
+        <item name="android:navigationBarColor">@color/acfun_card</item>
+    </style>
+</resources>

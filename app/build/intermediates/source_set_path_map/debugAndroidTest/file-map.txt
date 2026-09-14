@@ -1,0 +1,6 @@
+com.example.indiegamecommunity.test.app-androidTest-0 C:\AndroidTest\app\build\generated\res\resValues\androidTest\debug
+com.example.indiegamecommunity.test.app-mergeDebugAndroidTestResources-1 C:\AndroidTest\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.indiegamecommunity.test.app-mergeDebugAndroidTestResources-2 C:\AndroidTest\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.indiegamecommunity.test.app-merged_res-3 C:\AndroidTest\app\build\intermediates\merged_res\debugAndroidTest
+com.example.indiegamecommunity.test.app-jetified-annotation-experimental-1.3.0-4 C:\Users\17676\.gradle\caches\transforms-3\59e033973602d68d0227d649bdc18339\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.indiegamecommunity.test.app-jetified-core-1.5.0-5 C:\Users\17676\.gradle\caches\transforms-3\cea4fd2b9886aa5de33330e0198000e1\transformed\jetified-core-1.5.0\res

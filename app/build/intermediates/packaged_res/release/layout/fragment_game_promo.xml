@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/acfun_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/acfun_red">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="独立游戏宣发栏"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/acfun_text_white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发现最新独立游戏，支持独立开发者"
+            android:textSize="13sp"
+            android:textColor="@color/acfun_text_white"
+            android:alpha="0.85"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGamePromos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:clipToPadding="false"/>
+
+    <Button
+        android:id="@+id/btnPublish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发布游戏宣发"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:textColor="@color/acfun_text_white"
+        android:background="@drawable/btn_post_bg"/>
+
+</LinearLayout>
