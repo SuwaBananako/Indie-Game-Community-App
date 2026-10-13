@@ -2,8 +2,12 @@
 独立游戏社区 App
 作者：SuwaBananako
 一个面向独立游戏生态的综合性 Android 社区应用，为独立开发者、美术、音乐人以及玩家提供内容创作、游戏宣发、众筹支持与作品投票的一站式平台。
-<img width="1080" height="2400" alt="1782307414106" src="https://github.com/user-attachments/assets/e6de3a33-1bc2-45a3-828a-0f4ba0c26a31" />
-
+<img width="1080" height="2400" alt="1782307414234" src="https://github.com/user-attachments/assets/4cf93468-1335-43c7-af05-be12c44c6194" />
+<img width="1080" height="2400" alt="1782307414222" src="https://github.com/user-attachments/assets/a65a2cee-4c8e-4e3a-a872-99bf754a8822" />
+<img width="1080" height="2400" alt="1782307414199" src="https://github.com/user-attachments/assets/1bfccb6a-e610-496c-9457-54732a728865" />
+<img width="1080" height="2400" alt="1782307414188" src="https://github.com/user-attachments/assets/19a4a504-883b-4c0d-9f74-56bac6f09745" />
+<img width="1080" height="2400" alt="1782307414093" src="https://github.com/user-attachments/assets/6b55645d-2cea-4743-a5f2-dc08c96b2ed8" />
+<img width="1080" height="2400" alt="1782307414040" src="https://github.com/user-attachments/assets/53ef9557-3eba-4f32-bc61-004af4318eb5" />
 功能
 用户管理：注册、登录、自动登录、修改个人资料、退出登录
 
