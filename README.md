@@ -8,6 +8,8 @@
 <img width="1080" height="2400" alt="1782307414188" src="https://github.com/user-attachments/assets/19a4a504-883b-4c0d-9f74-56bac6f09745" />
 <img width="1080" height="2400" alt="1782307414093" src="https://github.com/user-attachments/assets/6b55645d-2cea-4743-a5f2-dc08c96b2ed8" />
 <img width="1080" height="2400" alt="1782307414040" src="https://github.com/user-attachments/assets/53ef9557-3eba-4f32-bc61-004af4318eb5" />
+
+
 功能
 用户管理：注册、登录、自动登录、修改个人资料、退出登录
 
